@@ -11,4 +11,7 @@ export const defaultTheme = {
       darkGrey: "#333136",
     }
   },
+  fonts: {
+    primary: "'Jost', sans-serif",
+  }
 }

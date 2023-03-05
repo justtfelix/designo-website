@@ -11,4 +11,7 @@ export interface Theme {
       darkGrey: string;
     };
   };
+  fonts: {
+    primary: string;
+  };
 }

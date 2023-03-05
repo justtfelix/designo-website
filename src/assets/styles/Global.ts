@@ -44,6 +44,10 @@ const GlobalStyles = createGlobalStyle`
   a {
     text-decoration: none;
   }
+  // Element Styles
+  body {
+    font-family: ${({theme}) => theme.fonts.primary};
+  }
 `;
 
 export default GlobalStyles;
