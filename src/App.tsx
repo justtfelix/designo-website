@@ -2,12 +2,15 @@ import React from "react";
 import { ThemeProvider } from "styled-components";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import { defaultTheme } from "./theme/defaultTheme";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./Routes";
 // Importing Components
 import GlobalStyles from "./assets/styles/Global";
 
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
+      <RouterProvider router={router} />
       <HelmetProvider>
         <GlobalStyles />
         <Helmet>
