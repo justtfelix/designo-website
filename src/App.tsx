@@ -5,7 +5,7 @@ import { defaultTheme } from "./theme/defaultTheme";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./Routes";
 // Importing Components
-import GlobalStyles from "./assets/styles/Global";
+import { GlobalStyles } from "./assets";
 
 function App() {
   return (
