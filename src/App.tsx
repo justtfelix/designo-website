@@ -3,8 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { HelmetProvider, Helmet } from "react-helmet-async";
 import { defaultTheme } from "./theme/defaultTheme";
 import { RouterProvider } from "react-router-dom";
-import { router } from "./Routes";
-// Importing Components
+import { router } from "./routes";
 import { GlobalStyles } from "./assets";
 
 function App() {

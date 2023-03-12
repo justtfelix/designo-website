@@ -46,7 +46,7 @@ const GlobalStyles = createGlobalStyle`
   }
   // Element Styles
   body {
-    font-family: ${({theme}) => theme.fonts.primary};
+    font-family: ${({ theme }) => theme.fonts.primary};
   }
 `;
 
