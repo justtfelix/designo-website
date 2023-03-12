@@ -7,10 +7,17 @@ const NavContent = styled.nav`
     column-gap: 35px;
 
     a {
-      color: ${({ theme }) => theme.colors.secondary.darkGrey};
+      ${({ theme }) => `
+        color: ${theme.colors.secondary.darkGrey};
+        transition: ${theme.transition};
+      `}
       font-size: 14px;
       letter-spacing: 2px;
       text-transform: uppercase;
+
+      &:hover {
+        color: ${({ theme }) => theme.colors.primary.peach};
+      }
     }
   }
 `;

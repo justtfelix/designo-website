@@ -14,4 +14,5 @@ export interface Theme {
   fonts: {
     primary: string;
   };
+  transition: string;
 }

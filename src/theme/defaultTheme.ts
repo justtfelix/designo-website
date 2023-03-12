@@ -13,5 +13,6 @@ export const defaultTheme = {
   },
   fonts: {
     primary: "'Jost', sans-serif",
-  }
+  },
+  transition: "all .25s ease-in-out",
 }
