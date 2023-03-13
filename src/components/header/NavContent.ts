@@ -1,14 +1,15 @@
 import styled from "styled-components";
+import { ContentColor } from "../../interfaces";
 
-const NavContent = styled.nav`
+const NavContent = styled.nav<ContentColor>`
   ul {
     display: flex;
     align-items: center;
     column-gap: 35px;
 
     a {
-      ${({ theme }) => `
-        color: ${theme.colors.secondary.darkGrey};
+      ${({ isLightBg, theme }) => `
+        color: ${isLightBg ? theme.colors.secondary.darkGrey : theme.colors.primary.white};
         transition: ${theme.transition};
       `}
       font-size: 14px;
